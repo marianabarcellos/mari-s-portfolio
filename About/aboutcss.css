@@ -1,0 +1,52 @@
+img {
+    max-width: 250px;
+}
+
+.li-test{
+    display: inline-block;
+    text-decoration: none;
+}
+
+a{
+    display: block;
+    padding: 10px;
+    background-color: #440000;
+    color: azure;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.h1{
+    display: block;
+    padding: 10px;
+    background-color: #440000;
+    color: azure;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ul-test{
+    background-color: #440000;
+    text-align: center;
+    padding: 0px;
+    margin-top: 2px;
+}
+
+footer{
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

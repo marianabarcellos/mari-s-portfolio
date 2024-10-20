@@ -1,0 +1,96 @@
+.p_test {
+    text-align: start;    
+    text-indent: 25px;
+    padding-left: 15px;
+
+}
+
+.li-text{
+    padding-left: 70px;
+}
+
+.li-test{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.h1{
+    display: block;
+    padding: 10px;
+    background-color: #440000;
+    color: azure;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.ul-test{
+    background-color: #440000;
+    text-align: center;
+    padding: 0px;
+    margin-top: 2px;
+}
+
+h5 {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 35px;
+}
+
+h4{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a{
+    display: block;
+    padding: 10px;
+    background-color: #440000;
+    color: azure;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+footer{
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
