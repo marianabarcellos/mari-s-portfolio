@@ -1,0 +1,121 @@
+h5 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+	max-width: 250px;
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+	display: block;
+	padding: 10px;
+	background-color: #440000;
+	color: white;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body,
+html {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+main {
+	flex: 1;
+	position: relative;
+	padding-top: 80px;
+}
+
+footer {
+	margin: 0px;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+header {
+	background-color: white;
+	margin: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	right: 0;
+	z-index: 1000;
+}
+
+a:hover {
+	color: rgb(110, 55, 1); /* Cor ao passar o mouse */
+}
+
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.liText {
+	padding-left: 70px;
+}
+
+.liHeader {
+	display: inline-block;
+	text-decoration: white;
+}
+
+.ulHeader {
+	background-color: #440000;
+	text-align: center;
+	padding: 0px;
+	margin-top: 2px;
+}
+
+.headerTittle {
+	display: block;
+	background-color: #440000;
+	color: white;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.fontBody {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
