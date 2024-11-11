@@ -1,0 +1,132 @@
+h5 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+}
+
+img {
+    max-width: 250px;
+}
+
+h4 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+h3 {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+a {
+	display: block;
+	padding: 10px;
+	background-color: #440000;
+	color: azure;
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    position: relative;
+    padding-top: 80px;
+}
+
+footer {
+	margin: 0px;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 14px;
+}
+
+header{
+    background-color: white;
+	margin: 0px;
+	position:fixed;
+	top : 0px;
+	width: 100%;
+	right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+a:hover {
+    color: rgb(110, 55, 1); /* Cor ao passar o mouse */
+}
+
+.p_test {
+	text-align: start;
+	text-indent: 25px;
+	padding-left: 15px;
+}
+
+.liText {
+	padding-left: 70px;
+}
+
+.li-test {
+	display: inline-block;
+
+    text-decoration: white;
+
+}
+
+.a-test {
+	display: block;
+	padding: 10px;
+	background-color: #440000;
+	color: azure;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.headerPortfolio {
+	display: block;
+	padding: 10px;
+	background-color: #440000;
+	color: azure;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+    
+}
+
+.ul-test {
+	background-color: #440000;
+	text-align: center;
+	padding: 0px;
+	margin-top: 2px;
+}
+
+.fontBody {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
