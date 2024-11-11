@@ -1,0 +1,23 @@
+.aImg {
+	display: block;
+	padding: 10px;
+	background-color: #440000;
+	color: azure;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.h1Center {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sectionCard {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.flex-column {
+	display: inline-flex;
+	flex-direction: column;
+}

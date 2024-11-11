@@ -4,10 +4,12 @@ h5 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-left: 35px;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 img {
-    max-width: 250px;
+	max-width: 250px;
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h4 {
@@ -16,6 +18,7 @@ h4 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-left: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 h3 {
 	padding: 0px;
@@ -23,33 +26,36 @@ h3 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-left: 5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a {
 	display: block;
 	padding: 10px;
 	background-color: #440000;
-	color: azure;
+	color: white;
 	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
 	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
-
-body, html {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+body,
+html {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 main {
-    flex: 1;
-    position: relative;
-    padding-top: 80px;
+	flex: 1;
+	position: relative;
+	padding-top: 80px;
 }
 
 footer {
@@ -62,69 +68,52 @@ footer {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 14px;
 }
 
-header{
-    background-color: white;
+header {
+	background-color: white;
 	margin: 0px;
-	position:fixed;
-	top : 0px;
+	position: fixed;
+	top: 0px;
 	width: 100%;
 	right: 0;
-    width: 100%;
-    z-index: 1000;
+	z-index: 1000;
 }
 
 a:hover {
-    color: rgb(110, 55, 1); /* Cor ao passar o mouse */
+	color: rgb(110, 55, 1); /* Cor ao passar o mouse */
 }
 
-.p_test {
-	text-align: start;
-	text-indent: 25px;
-	padding-left: 15px;
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .liText {
 	padding-left: 70px;
 }
 
-.li-test {
+.liHeader {
 	display: inline-block;
-
-    text-decoration: white;
-
+	text-decoration: white;
 }
 
-.a-test {
-	display: block;
-	padding: 10px;
-	background-color: #440000;
-	color: azure;
-	text-decoration: none;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-.headerPortfolio {
-	display: block;
-	padding: 10px;
-	background-color: #440000;
-	color: azure;
-	text-decoration: none;
-	padding: 0px;
-	margin: 0px;
-	text-align: center;
-    
-}
-
-.ul-test {
+.ulHeader {
 	background-color: #440000;
 	text-align: center;
 	padding: 0px;
 	margin-top: 2px;
+}
+
+.headerTittle {
+	display: block;
+	background-color: #440000;
+	color: white;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
 }
 
 .fontBody {

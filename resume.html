@@ -9,36 +9,42 @@
 		<link
 			rel="stylesheet"
 			href="./css_files/main.css" />
+		<link
+			rel="stylesheet"
+			href="./css_files/resume.css" />
 	</head>
 
 	<body>
 		<header>
-			<h1 class="headerPortfolio">Mariana Barcellos' Portfolio</h1>
+			<h1 class="headerTittle">Mariana Barcellos' Portfolio</h1>
 			<nav>
-				<ul class="ul-test">
-					<li class="li-test"><a href="./home.html">Home</a></li>
-					<li class="li-test"><a href="./about.html">About</a></li>
-					<li class="li-test"><a href="">Resume</a></li>
-					<li class="li-test"><a href="./contact.html">Contact</a></li>
+				<ul class="ulHeader">
+					<li class="liHeader"><a href="./home.html">Home</a></li>
+					<li class="liHeader"><a href="./portfolio.html">Portfolio</a></li>
+					<li class="liHeader"><a href="">Resume</a></li>
+					<li class="liHeader"><a href="./contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main class="fontBody">
-			<section>
-				<h3>Resume</h3>
-				<p class="p_test">
+			<div class="flex-column">
+				<h1>Resume</h1>
+				<p class="pBody">
 					Highly motivated and detail-focused professional with a strong passion
 					for easy-to-use solutions applied daily. Skilled in planning,
 					organization, and decision-making, committed to clear communication
 					with teams and customers.
 				</p>
-			</section>
+			</div>
 
-			<section>
+			<section class="flex-column">
 				<h4>Work Experience</h4>
+				<section class="flex-row">
+					<h5>Junior Writer</h5>
+					<h5 class="row-end">November 2023 - August 2024</h5>
+				</section>
 
-				<h5>Junior Writer - November 2023 - August 2024</h5>
 				<h5>ParkEvaluations - New York, USA - Remote</h5>
 				<li class="liText">
 					Constructed accurate, well-written, and properly formatted evaluations
@@ -59,27 +65,35 @@
 					Fact-check dates and other statements for accuracy.
 				</li>
 			</section>
+			<section class="flex-column">
+				<h4>Education and Certificates</h4>
 
-			<h4>Education and Certificates</h4>
+				<section class="flex-row">
+					<h5>Interactive Design - User Experience</h5>
+					<h5 class="row-end">September 2024 - Present</h5>
+				</section>
+				<h5>Southern Alberta Institute of Technology - Calgary, AB</h5>
+			</section>
 
-			<h5>Interactive Design - User Experience - September 2024 - Present</h5>
-			<h5>Southern Alberta Institute of Technology - Canada</h5>
+			<section class="flex-column">
+				<h4>Skills</h4>
+				<li class="liText">Problem-Solving Abilities</li>
+				<li class="liText">Creative Collaboration</li>
+				<li class="liText">Attention to Details</li>
+				<li class="liText">Languages: Portuguese and English</li>
+			</section>
 
-			<h4>Skills</h4>
-			<li class="liText">Problem-Solving Abilities</li>
-			<li class="liText">Creative Collaboration</li>
-			<li class="liText">Attention to Details</li>
-			<li class="liText">Languages: Portuguese and English</li>
+			<section class="flex-column">
+				<h4>Volunteer</h4>
 
-			<h4>Volunteer</h4>
-			<h5>Hamburgada do Bem</h5>
-			<p style="padding-left: 45px; text-indent: 25px">
-				Hamburgada do Bem is a social initiative that brings hamburgers and fun
-				educational activities to children in underprivileged communities.
-			</p>
-			<div>
-				<p></p>
-			</div>
+				<section class="flex-row">
+					<h5>Hamburgada do Bem</h5>
+				</section>
+				<p style="padding-left: 45px; text-indent: 25px">
+					Hamburgada do Bem is a social initiative that brings hamburgers and
+					fun educational activities to children in underprivileged communities.
+				</p>
+			</section>
 		</main>
 
 		<footer>
