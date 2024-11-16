@@ -119,3 +119,18 @@ p {
 .fontBody {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.morning {
+	color: #FFA500;
+	padding: 10px;
+}
+
+.afternoon {
+	color: #FF4500;
+	padding: 10px;
+}
+
+.evening {
+	color: #1E90FF;
+	padding: 10px;
+}
